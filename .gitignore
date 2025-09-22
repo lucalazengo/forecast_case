@@ -3,5 +3,4 @@ data/processed/
 data/raw/
 # Adicionar a regra para ignorar CSVs
 echo "*.csv" >> .gitignore
-# Ou, se quiser ignorar apenas CSVs da pasta processed:
 echo "notebook/data/processed/*.csv" >> .gitignore
